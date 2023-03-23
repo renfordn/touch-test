@@ -1,0 +1,6 @@
+{
+	"insert_final_newline": true,
+	"max_line_length": 110,
+	"singleQuote": true,
+	"useTabs": true
+}

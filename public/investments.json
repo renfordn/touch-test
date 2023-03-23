@@ -1,0 +1,109 @@
+{
+	"clients": [
+		{
+			"id": 1,
+			"name": "Mr Daniel Dreiberg",
+			"portfolio_value": "110000",
+			"assets": [
+				{
+					"id": "1001",
+					"name": "BlackRock Institutional Cash Series Sterling Liquidity Agency Inc",
+					"asset_isin": "IE00B52L4369",
+					"percentage_of_portfolio": 20
+				},
+				{
+					"id": "1002",
+					"name": "Threadneedle UK Property Authorised Investment Net GBP 1 Acc",
+					"asset_isin": "GB00BQ1YHQ70",
+					"percentage_of_portfolio": 20
+				},
+				{
+					"id": "1003",
+					"name": "Vanguard US Equity Index Institutional Plus GBP Accumulation",
+					"asset_isin": "GB00BPN5P238",
+					"percentage_of_portfolio": 60
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Ms Laurel Juspeczyk",
+			"portfolio_value": "245000",
+			"assets": [
+				{
+					"id": "1001",
+					"name": "Threadneedle UK Property Authorised Investment Net GBP 1 Acc",
+					"asset_isin": "IE00B52L4369",
+					"percentage_of_portfolio": 40
+				},
+				{
+					"id": "1002",
+					"name": "Legal & General Japan Index Trust C Class Accumulation",
+					"asset_isin": "GB00BQ1YHQ70",
+					"percentage_of_portfolio": 60
+				}
+			]
+		},
+		{
+			"id": 3,
+			"name": "Dr Jonathan Osterman",
+			"portfolio_value": "65000",
+			"assets": [
+				{
+					"id": "1001",
+					"name": "BlackRock Institutional Cash Series Sterling Liquidity Agency Inc",
+					"asset_isin": "IE00B52L4369",
+					"percentage_of_portfolio": 10
+				},
+				{
+					"id": "1002",
+					"name": "Threadneedle UK Property Authorised Investment Net GBP 1 Acc",
+					"asset_isin": "GB00BQ1YHQ70",
+					"percentage_of_portfolio": 30
+				},
+				{
+					"id": "1003",
+					"name": "Vanguard US Equity Index Institutional Plus GBP Accumulation",
+					"asset_isin": "GB00BPN5P238",
+					"percentage_of_portfolio": 30
+				},
+				{
+					"id": "1004",
+					"name": "Vanguard US Equity Index Institutional Plus GBP Accumulation",
+					"asset_isin": "GB00BPN5P238",
+					"percentage_of_portfolio": 20
+				}
+			]
+		}
+	],
+	"assets": [
+		{
+			"id": "1001",
+			"name": "BlackRock Institutional Cash Series Sterling Liquidity Agency Inc",
+			"asset_isin": "IE00B52L4369",
+			"percentage_of_portfolio": 10,
+			"clients": []
+		},
+		{
+			"id": "1002",
+			"name": "Threadneedle UK Property Authorised Investment Net GBP 1 Acc",
+			"asset_isin": "GB00BQ1YHQ70",
+			"percentage_of_portfolio": 30,
+			"clients": []
+		},
+		{
+			"id": "1003",
+			"name": "Vanguard US Equity Index Institutional Plus GBP Accumulation",
+			"asset_isin": "GB00BPN5P238",
+			"percentage_of_portfolio": 30,
+			"clients": []
+		},
+		{
+			"id": "1004",
+			"name": "Vanguard US Equity Index Institutional Plus GBP Accumulation",
+			"asset_isin": "GB00BPN5P238",
+			"percentage_of_portfolio": 20,
+			"clients": []
+		}
+	]
+}

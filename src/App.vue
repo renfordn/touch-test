@@ -1,30 +1,36 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+	<NavBar v-if="this.$route.path !== '/'" />
+	<Suspense>
+		<router-view />
+		<template #fallback> Loading... </template>
+	</Suspense>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body {
+	font-size: 16px;
 }
 
-nav {
-  padding: 30px;
+#app {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	padding: 2em;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+span.brand-red {
+	color: #b5002a;
+	font-size: unset !important;
 }
 </style>
+
+<script>
+import NavBar from '@/components/NavBar.vue'; // @ is an alias to /src
+
+export default {
+	components: {
+		NavBar,
+	},
+};
+</script>
